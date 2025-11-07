@@ -7,13 +7,8 @@
     </base-config>
     <domain-config cleartextTrafficPermitted="true">
         <domain includeSubdomains="true">10.0.2.2</domain>
-        <domain includeSubdomains="true">192.168.68.119</domain>
         <domain includeSubdomains="true">localhost</domain>
         <domain includeSubdomains="true">127.0.0.1</domain>
-        <domain includeSubdomains="true">192.168.1.11</domain>
-        <domain includeSubdomains="true">192.168.100.213</domain>
-        <domain includeSubdomains="true">172.20.10.2</domain>
-        <domain includeSubdomains="true">172.16.127.33</domain>
-        <domain includeSubdomains="true">192.168.68.110</domain>
+        <domain includeSubdomains="true">your-private-IP-address</domain>
     </domain-config>
 </network-security-config> 
