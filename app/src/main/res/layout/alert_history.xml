@@ -55,6 +55,7 @@
             android:layout_gravity="center_vertical"
             android:tint="@android:color/white"
             tools:ignore="ContentDescription" />
+
     </LinearLayout>
 
     <!-- Main Content Section -->

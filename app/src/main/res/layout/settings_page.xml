@@ -144,6 +144,7 @@
                 android:textColor="@color/white"
                 android:textSize="20sp"
                 android:background="@android:color/transparent"
+                app:icon="@drawable/dpa"
                 app:iconGravity="start"
                 app:iconSize="25dp"
                 app:iconPadding="8dp"/>

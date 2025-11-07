@@ -125,6 +125,7 @@ class AlertHistoryActivity : AppCompatActivity() {
             refreshAlertHistory()
         }
 
+
         // Set a click listener to navigate to the SettingsActivity.
         btnGoToSettings.setOnClickListener {
             val intent = Intent(this, SettingsActivity::class.java)
@@ -294,7 +295,7 @@ class AlertHistoryActivity : AppCompatActivity() {
             }
         }
     }
-    
+
     // New method to refresh alert history
     private fun refreshAlertHistory() {
         Log.d(TAG, "🔄 Refreshing alert history to get latest records...")
