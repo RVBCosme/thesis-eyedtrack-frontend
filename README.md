@@ -68,7 +68,7 @@ const val BASE_URL = "http://<your-private-IP-address>:<port>/"
 app -> res -> xml -> network_security_config.xml
 Add the following line inside the <domain-config> tag:
 ```kotlin
-private const val BASE_URL = "http://<your-private-IP-address>:<port>/"
+<domain includeSubdomains="true">your-private-IP-address</domain>
 ```
 
 ### 3. Update Alert Log Endpoints
